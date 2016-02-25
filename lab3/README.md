@@ -16,4 +16,5 @@ on GitHub, shared it with you and Professor Plotka, and I have cloned it locally
 
 The link for it is: https://github.com/wtg/elex.git
 
-We set up Mantis on our server. The link for the server is: http://162.243.245.165:3000/
+I included the image 'mantis.png' to show that I installed Mantis on my localhost
+server.
