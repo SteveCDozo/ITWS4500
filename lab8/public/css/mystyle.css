@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro|Montserrat);
+
+#resultsSection{
+  margin-left:2px;
+  margin-right:2px;
+  border:2px solid darkgray;
+  min-height:200px;
+  background-color:ghostwhite;
+  font-family:'Montserrat', sans-serif;
+  margin-bottom:20px;
+}
+#query{
+  border:2px solid darkgray;
+  background-color:ghostwhite;
+  font-family:'Source Code Pro';
+  min-height:170px;
+}
+#queryBox{
+  margin-left:2px;
+  margin-right:2px;
+}
+header{
+  text-align:center;
+}
+.btn{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+p{
+  margin-top:10px;
+}
+thead{
+  text-transform:capitalize;
+}
+#loadingImage{
+  padding-top:40px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+#error{
+  display:block;
+  text-align:center;
+  text-transform:capitalize;
+}
+#errorRed{  
+  color:red;
+}

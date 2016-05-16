@@ -1,0 +1,59 @@
+/* import fonts from Google */
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt|Indie+Flower|Roboto|Slabo+27px|Overlock|Ubuntu+Mono);
+
+body {
+  background-image: url("../background.jpg");
+  background-size: cover;
+}
+header {
+  text-align: center;
+  color: white;
+  background-color: mediumslateblue;  
+}
+h1{
+  font-family: 'Rock Salt', cursive;
+}
+h1 small {
+  color: rgb(250, 250, 250);
+  font-family: 'Indie Flower', cursive;
+}
+.page-header {
+  padding-top: 10px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+.panel {
+  /*rgba allows for opactiy*/
+  background-color: rgba(180, 180, 255, .6);
+  font-size: 150%;
+}
+time {
+  padding-top: 15px;
+  display: block;
+  font-family: 'Slabo 27px', serif;
+}
+.tweet{
+  padding-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 90%;
+}
+.user{
+  font-family: 'Ubuntu Mono';
+  color: gray;
+}
+b {
+  color: black;
+  font-family: 'Overlock', cursive;
+}
+.green{
+background-color:green;
+}
+
+/* For tablets: */
+@media screen and (max-width: 1025px) {
+  /* update CSS of elements with class values containing 'col-md-3' and 'col-md-6' */
+  .col-md-3, .col-md-6 {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,36 @@
+body {
+	background-image: url("../background.jpg");
+	background-size: cover;
+	
+}
+
+section {
+	height: 70px;
+	background-color: AliceBlue;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 7px;
+}
+
+section img {
+	display: inline;
+	margin-right: 10px;
+}
+
+section div {
+	display:inline-block;
+}
+
+h5, h6 {
+	display: inline;
+}
+
+#time section {
+	text-align: center;
+	padding-top: 20px;
+}
+
+header {
+	text-align: center;
+	color:white;
+}

@@ -1,0 +1,279 @@
+[
+    {
+        "created_at": "Mon May 02 10:06:08 +0000 2016",
+        "id": 727076702065692700,
+        "id_str": "727076702065692672",
+        "text": "@allyc375 Lets catch up again when you are back.  Need to talk about Patient Activation matters.  Off now for coffee and chic cake.",
+        "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+        "truncated": false,
+        "in_reply_to_status_id": 727075990904672300,
+        "in_reply_to_status_id_str": "727075990904672256",
+        "in_reply_to_user_id": 15569336,
+        "in_reply_to_user_id_str": "15569336",
+        "in_reply_to_screen_name": "allyc375",
+        "user": {
+            "id": 1246074422,
+            "id_str": "1246074422",
+            "name": "2EQIPP",
+            "screen_name": "2EQIPP",
+            "location": null,
+            "url": "http://2eqipp.com",
+            "description": "2EQIPP is a knowledge-transfer company. We help health service organisations and healthcare professionals operate in complex, dynamic environments.",
+            "protected": false,
+            "verified": false,
+            "followers_count": 674,
+            "friends_count": 1279,
+            "listed_count": 11,
+            "favourites_count": 18,
+            "statuses_count": 1868,
+            "created_at": "Wed Mar 06 13:11:16 +0000 2013",
+            "utc_offset": 3600,
+            "time_zone": "London",
+            "geo_enabled": true,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "E7E7E8",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000123409627/c192f6a0a3e59bdb29df2b1bff83b1b2.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000123409627/c192f6a0a3e59bdb29df2b1bff83b1b2.png",
+            "profile_background_tile": false,
+            "profile_link_color": "E61E61",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/378800000771237525/a4462951da9564cf9253eeefcac60f01_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000771237525/a4462951da9564cf9253eeefcac60f01_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1246074422/1399536844",
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "entities": {
+            "hashtags": [],
+            "urls": [],
+            "user_mentions": [
+                {
+                    "screen_name": "allyc375",
+                    "name": "Alison Cameron",
+                    "id": 15569336,
+                    "id_str": "15569336",
+                    "indices": [
+                        0,
+                        9
+                    ]
+                }
+            ],
+            "symbols": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "filter_level": "low",
+        "lang": "en",
+        "timestamp_ms": "1462183568861"
+    },
+    {
+        "created_at": "Mon May 02 10:06:09 +0000 2016",
+        "id": 727076703516938200,
+        "id_str": "727076703516938240",
+        "text": "RT @ToughCookieMom: Dunkin' Donuts Coffee Creamer ONLY $0.99! https://t.co/ddRkH2RGrn via @Couponmamacita",
+        "source": "<a href=\"https://roundteam.co\" rel=\"nofollow\">RoundTeam</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 456256615,
+            "id_str": "456256615",
+            "name": "Otros20Pesos.com",
+            "screen_name": "Otros20Pesos",
+            "location": "New Jersey, United States",
+            "url": "http://www.otros20pesos.com",
+            "description": "Tan REAL como tu propia historia! Latina Top Influencer, #TeclaAwards Finalist,  Social Activist, Published Author, Dream Chaser, LifeCoach at @Meryland_Cuevas",
+            "protected": false,
+            "verified": false,
+            "followers_count": 1150,
+            "friends_count": 1133,
+            "listed_count": 37,
+            "favourites_count": 902,
+            "statuses_count": 29140,
+            "created_at": "Fri Jan 06 01:50:11 +0000 2012",
+            "utc_offset": -14400,
+            "time_zone": "Eastern Time (US & Canada)",
+            "geo_enabled": false,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "131516",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/396346291/logo_billete.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/396346291/logo_billete.jpg",
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_sidebar_border_color": "EEEEEE",
+            "profile_sidebar_fill_color": "EFEFEF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/3520838145/55047bd966f63dc51e875baba0f31acb_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/3520838145/55047bd966f63dc51e875baba0f31acb_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/456256615/1435108861",
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Mon May 02 10:04:01 +0000 2016",
+            "id": 727076168650887200,
+            "id_str": "727076168650887169",
+            "text": "Dunkin' Donuts Coffee Creamer ONLY $0.99! https://t.co/ddRkH2RGrn via @Couponmamacita",
+            "source": "<a href=\"http://triberr.com\" rel=\"nofollow\">Triberr</a>",
+            "truncated": false,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 44507218,
+                "id_str": "44507218",
+                "name": "Maria Castro",
+                "screen_name": "ToughCookieMom",
+                "location": "Bronx, New York",
+                "url": "http://about.me/ToughCookieMommy",
+                "description": "Working Mom of 2 boys, Top 25 NY Mom, Literacy Specialist Grades 5-12, Family/Lifestyle Blogger, Survivor, Latina and Juggler Extraordinaire!",
+                "protected": false,
+                "verified": false,
+                "followers_count": 18601,
+                "friends_count": 12665,
+                "listed_count": 707,
+                "favourites_count": 1300,
+                "statuses_count": 80653,
+                "created_at": "Thu Jun 04 01:03:38 +0000 2009",
+                "utc_offset": -14400,
+                "time_zone": "Eastern Time (US & Canada)",
+                "geo_enabled": true,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "profile_background_color": "F5FFFE",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/491077230831759360/J9eyTABV.png",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/491077230831759360/J9eyTABV.png",
+                "profile_background_tile": false,
+                "profile_link_color": "8ED0DE",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "C9F578",
+                "profile_text_color": "141314",
+                "profile_use_background_image": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/567943175654752256/arynIwdb_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/567943175654752256/arynIwdb_normal.jpeg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/44507218/1405913464",
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "entities": {
+                "hashtags": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/ddRkH2RGrn",
+                        "expanded_url": "http://goo.gl/m2wOU0",
+                        "display_url": "goo.gl/m2wOU0",
+                        "indices": [
+                            42,
+                            65
+                        ]
+                    }
+                ],
+                "user_mentions": [
+                    {
+                        "screen_name": "Couponmamacita",
+                        "name": "Myrah Duque",
+                        "id": 103077936,
+                        "id_str": "103077936",
+                        "indices": [
+                            70,
+                            85
+                        ]
+                    }
+                ],
+                "symbols": []
+            },
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "filter_level": "low",
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "entities": {
+            "hashtags": [],
+            "urls": [
+                {
+                    "url": "https://t.co/ddRkH2RGrn",
+                    "expanded_url": "http://goo.gl/m2wOU0",
+                    "display_url": "goo.gl/m2wOU0",
+                    "indices": [
+                        62,
+                        85
+                    ]
+                }
+            ],
+            "user_mentions": [
+                {
+                    "screen_name": "ToughCookieMom",
+                    "name": "Maria Castro",
+                    "id": 44507218,
+                    "id_str": "44507218",
+                    "indices": [
+                        3,
+                        18
+                    ]
+                },
+                {
+                    "screen_name": "Couponmamacita",
+                    "name": "Myrah Duque",
+                    "id": 103077936,
+                    "id_str": "103077936",
+                    "indices": [
+                        90,
+                        105
+                    ]
+                }
+            ],
+            "symbols": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "filter_level": "low",
+        "lang": "en",
+        "timestamp_ms": "1462183569207"
+    }
+]

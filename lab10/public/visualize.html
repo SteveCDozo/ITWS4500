@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tweetr</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+  </head>
+  <body>
+		<!-- load angular in body because calls to angular.module can only be compiled after the library has been loaded -->
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script src="js/chartController.js"></script>
+		
+    <div class="container-fluid" ng-app="angularApp" ng-controller="angularController">
+		
+			<h1 id="pageTitle">Tweetr: Search & Save Tweets</h1>
+			
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<div id="chartPanel" class="panel panel-default" >
+						<div class="panel-body">
+							<form ng-submit="updateCharts()">
+								<input type="text" ng-model="searchTerms" placeholder="Search here...">
+								<input type="text" ng-model="numResults" placeholder="# of tweets" required>
+								<input type="submit" value="Search">
+							</form>						
+							<div class="alert alert-info" ng-if="status">
+								<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+								<strong>{{statusText}}</strong>
+							</div>
+							<img ng-if="loading" id="loadingImage" src="img/loading.gif" alt="Loading...">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<h3>Retweets to Original Tweets</h3>
+					<canvas id="retweetChart" width="400" height="400"></canvas>
+				</div>
+				<div class="col-md-4">
+					<h3>Account Creation Years</h3>
+					<canvas id="createdChart" width="400" height="400"></canvas>
+				</div>
+				<div class="col-md-4">
+				  <h3>Friends to Followers</h3>
+					<canvas id="ffChart" width="400" height="400"></canvas>
+				</div>
+			</div>
+    </div>
+		
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.0/Chart.js"></script>
+		<script src="js/displayChart.js"></script>
+  </body>
+</html>

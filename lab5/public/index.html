@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab 6</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+  </head>
+  <body>
+		<!-- load angular in body because calls to angular.module can only be compiled after the library has been loaded -->
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script src="js/controller.js"></script>
+		
+    <div class="container-fluid" ng-app="angularApp" ng-controller="angularController">
+
+      <header class="page-header">        
+    		<h1>STREAMULAR<br><small>Populates the page with Tweets from a stream!</small></h1>
+				<!-- form for search -->
+				<form ng-submit="search()">
+					<input type="text" ng-model="searchTerms" placeholder="Search here...">
+					<input type="text" ng-model="numResults" placeholder="# of tweets" required>
+					<input type="submit" value="Search">
+				</form>
+  		</header>
+			
+			<!-- paragraph to display an error if there is any -->
+			<p ng-if="errorStatus">{{errorText}}</p>
+			<!-- loading image while the AJAX request processes -->
+			<img ng-if="loading" id="loadingImage" src="img/loading.gif" alt="Loading...">
+			
+			<!-- repeat the panels for every tweet there is -->
+			<div class="panel" ng-repeat="tweet in tweets">
+				<div class="panel-body">
+					<!-- every panel should contain a row of data -->
+					<div class="row">				
+						<!-- Tweet Time -->
+						<div class="col-md-3">
+							<time>{{tweet.created_at}}</time>
+						</div>
+						<!-- Tweet User -->
+						<div class="col-md-3">
+							<div class="row">
+								<img class="col-md-3 img-rounded" ng-src="{{ tweet.user.profile_image_url }}">
+								<div class="col-md-9">
+									<p class="user"><b>{{tweet.user.name}}</b><br>@{{tweet.user.screen_name}}</p>
+								</div>
+							</div>							
+						</div>
+						<!-- Tweet Message -->
+						<div class="col-md-6">
+							<p class="tweet">{{tweet.text}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+    </div>
+		
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

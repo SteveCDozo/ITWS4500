@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Forecast</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+
+      <header class="page-header">        
+        <h1>Weather Forecast<br><small>For your daily weather updates!</small></h1>
+      </header>
+
+      <div class="row">
+        <!-- Column for the location info -->
+        <div class="col-md-6">
+          <!-- Panel to hold the coordinates and map -->
+          <div id="map" class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Map of your area</h3>
+            </div>
+            <div class="panel-body text-center">
+              <p id="lat"><b>Latitude:</b> </p>
+              <p id="long"><b>Longitude:</b> </p>
+            </div>
+          </div>
+        </div>        
+        <!-- Column for the weather and forecast info -->
+        <div class="col-md-6">
+          <!-- Panel for current weather info -->
+          <div id="current_weather" class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Current Weather</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-6 left text-center"></div>
+                <div class="col-md-6 right text-center"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Panel for forecast info -->
+          <div id="forecast" class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">5 Day Forecast</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row row-eq-height"></div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/displayWeather.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+body {
+  background-image: url("../background.jpg");
+  background-size: cover; 
+}
+
+.panel-body img {
+	display: block;
+}
+
+#forecast .panel {
+  height: 220px;
+}

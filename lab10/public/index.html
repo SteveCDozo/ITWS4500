@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tweetr</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+  </head>
+  <body>
+		<!-- load angular in body because calls to angular.module can only be compiled after the library has been loaded -->
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script src="js/controller.js"></script>
+		
+    <div class="container-fluid" ng-app="angularApp" ng-controller="angularController">
+		
+			<h1 id="pageTitle">Tweetr: Search & Save Tweets</h1>
+			
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<div id="mainPanel" class="panel panel-default">
+						<div class="panel-body">						
+							<img id="panelImg" src="img/bird.png" class="center-block" height="150px">
+							<div id="buttonRow" class="row">
+								<form id="searchForm" ng-submit="searchTweets()">
+									<input type="text" ng-model="searchTerms" placeholder="Search here...">
+									<input type="text" ng-model="numResults" placeholder="# of tweets" required>
+									<input type="submit" value="Search">
+									<button type="button" id="searchButton" class="img-rounded"><img src="img/search_icon.png" height="30px"></button>
+								</form>	
+								<button ng-click="saveTweets()" class="img-rounded"><img src="img/save_icon.png" height="30px"></button>
+								<button onclick="window.location='visualize'" class="img-rounded"><img src="img/visualize_icon.png" height="30px"></button>								
+								<form id="exportForm" ng-submit="exportTweets()">
+									<button type="button" id="exportButton" class="img-rounded"><img src="img/export_icon.png" height="30px"></button>
+									<select ng-model="format" required>
+										<option value="">Format</option>
+										<option value="CSV">CSV</option>
+										<option value="JSON">JSON</option>
+										<option value="XML">XML</option>
+									</select>
+									<input type="text" ng-model="filename" placeholder="Filename" required>
+									<input type="submit" value="Export">									
+								</form>								
+							</div>
+							<div class="alert alert-info" ng-if="status">
+								<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+								<strong>{{statusText}}</strong>
+							</div>
+							<section id="tweetSection">
+							<!-- loading image while the AJAX request processes -->
+							<img ng-if="loading" id="loadingImage" src="img/loading.gif" alt="Loading...">
+							<!-- repeat the panels for every tweet there is -->
+								<div class="panel" ng-repeat="tweet in tweets">
+									<div class="panel-body">
+										<!-- first row will contain the user's info and the time -->
+										<div class="row">
+											<div class="col-xs-2">
+												<img class="img-responsive" ng-src="{{ tweet.user.profile_image_url }}">						
+											</div>
+											<div class="col-xs-10">
+												<div class="row">
+													<div class="col-xs-6"><a target="_blank" ng-href="https://twitter.com/{{tweet.user.screen_name}}"><b>{{tweet.user.name}}</b></a><br>@{{tweet.user.screen_name}}</div>
+													<div class="col-xs-6"><time>{{tweet.created_at}}</time></div>
+												</div>
+												<div id="tweetText" class="row">{{tweet.text}}</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+			
+			
+			
+			
+
+    </div>
+		
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+  </body>
+</html>

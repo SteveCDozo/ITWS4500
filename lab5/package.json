@@ -1,14 +1,14 @@
 {
-  "name": "webscilab3-steve_cardozo-cardos",
+  "name": "lab5",
   "version": "1.0.0",
-  "description": "Using NodeJS and AngularJS to display a webpage containing tweets using Twitter's Streaming API",
+  "description": "Twitter Stream",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SteveCDozo/ITWS4500/tree/master/lab5"
   },
   "author": "Steve Cardozo",
   "license": "ISC"

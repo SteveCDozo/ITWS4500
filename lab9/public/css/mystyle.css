@@ -1,0 +1,67 @@
+/* import fonts from Google */
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+h1 {
+  color:#fae596;
+  font-size:500%;
+}
+body {
+  background-color: #173e43;
+}
+#pageTitle {
+  font-family:'Pacifico', cursive;
+  text-align:center;
+}
+#mainPanel {
+  background-color:#3fb0ac;
+  margin-top:120px;
+}
+#panelImg {
+  margin-bottom: 20px;
+}
+#mainPanel > .panel-body {
+  position: relative;
+  top: -100px;
+  padding-bottom:-100px;
+  margin-bottom:-100px;
+}
+#buttonRow {
+  text-align:center;
+}
+#mainPanel form {
+  display: inline-block;
+}
+#searchForm input, #exportForm select, #exportForm input {
+  display: none;
+}
+#saveForm input {
+  background: url('../img/search_icon.png');
+  display: block;
+}
+.alert {
+  margin-top: 10px;
+  text-align: center;
+}
+button {
+  background-color:white;
+}
+#tweetSection {
+  margin-top: 20px;
+  height: 300px; 
+  overflow-y: scroll;
+  background-color: aquamarine;  
+}
+#tweetSection time {
+  float: right;
+}
+#tweetSection a {
+  font-size: 150%;
+}
+#tweetText {
+  margin-top: 15px;
+}
+#loadingImage{
+  padding-top:100px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}

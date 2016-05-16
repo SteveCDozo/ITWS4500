@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab 8: SPARQL & RDF</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+  </head>
+  <body>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>	
+		<!-- required for loading the angular html links -->
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-sanitize.js"></script>
+		<!-- start of Bootstrap page - uses Angular to load the query results -->
+    <div class="container-fluid" ng-app="angularApp" ng-controller="angularController">
+		
+      <header class="page-header">        
+    		<h1><small>Lab 8:</small><br>SPARQL & RDF<br><small>SPARQL queries at your service!</small></h1>
+  		</header>
+  		
+			<!-- section for query input -->
+			<section>
+				<!-- form uses Angular's ng-submit directive so the page doesn't redirect -->
+				<form ng-submit="runQuery()">
+					<div class="row">
+						<label for="query" class="center-block text-center">Query:</label>
+					</div>
+					<div class="row" id="queryBox">
+						<textarea class="col-md-12" id="query" ng-model="query" required></textarea>
+					</div>
+					<div class="row">
+						<input type="submit" value="Execute Query" class="center-block btn-success btn">
+					</div>
+				</form>
+			</section>
+			
+			<!-- section for the results -->
+			<section>
+				<div class="row">
+					<p class="text-center"><b>Results:</b></p>
+				</div>
+				<div class="row" id="resultsSection">
+					<p ng-if="error" id="error"><span id="errorRed">AJAX Request Failed! </span>{{ errorText }}</p>
+					<!-- loading image while the AJAX request processes -->
+					<img ng-if="loading" id="loadingImage" src="images/loading.gif" alt="Loading...">		
+					<!-- table should show only if the AJAX request is successful -->
+					<table ng-if="querySuccessful" class="table-hover table-bordered col-md-12">
+						<thead>
+							<tr>
+								<!-- table header for each property -->
+								<th ng-repeat="title in columnHeaders">{{ title }}</th>
+							</tr>
+						<thead>
+						<tbody>
+							<!-- rows for each result -->
+							<tr ng-repeat="currentRow in data">
+								<!-- if resource type is URI, display as link -->
+								<td ng-repeat="x in columnHeaders" ng-bind-html="currentRow[x].value"></td>
+							</tr>
+						</tbody>
+					</table>					
+				</div>
+			</section>			
+    </div>
+		
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/controller.js"></script>
+  </body>
+</html>

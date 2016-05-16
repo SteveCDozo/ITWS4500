@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tweets>
+	<tweet>
+		<created_at>Tue May 03 21:39:41 +0000 2016</created_at>
+		<id>727613625742004200</id>
+		<text>Starving and only food in the house is for the cat</text>
+		<user_id>605847156</user_id>
+		<user_name>fazz</user_name>
+		<user_screen_name>sam_farrington1</user_screen_name>
+		<user_location>Wolverhampton</user_location>
+		<user_followers_count>242</user_followers_count>
+		<user_friends_count>233</user_friends_count>
+		<user_created_at>Mon Jun 11 21:34:53 +0000 2012</user_created_at>
+		<user_time_zone>null</user_time_zone>
+		<user_profile_background_color>C0DEED</user_profile_background_color>
+		<user_profile_image_url>http://pbs.twimg.com/profile_images/619086247013822464/aCdwJBHN_normal.jpg</user_profile_image_url>
+		<geo>null</geo>
+		<coordinates>null</coordinates>
+		<place>null</place>
+	</tweet>
+	<tweet>
+		<created_at>Tue May 03 21:39:41 +0000 2016</created_at>
+		<id>727613627755339800</id>
+		<text>RT @harunamakaveli: if you no chop wetin u wan do @Roukyoo: I spend too much money on food.</text>
+		<user_id>864366410</user_id>
+		<user_name>The Buzzard</user_name>
+		<user_screen_name>Roukyoo</user_screen_name>
+		<user_location>Above You</user_location>
+		<user_followers_count>561</user_followers_count>
+		<user_friends_count>397</user_friends_count>
+		<user_created_at>Sat Oct 06 08:43:58 +0000 2012</user_created_at>
+		<user_time_zone>null</user_time_zone>
+		<user_profile_background_color>C0DEED</user_profile_background_color>
+		<user_profile_image_url>http://pbs.twimg.com/profile_images/683556076164354048/cW0NaOMb_normal.jpg</user_profile_image_url>
+		<geo>null</geo>
+		<coordinates>null</coordinates>
+		<place>null</place>
+	</tweet>
+	<tweet>
+		<created_at>Tue May 03 21:39:41 +0000 2016</created_at>
+		<id>727613627788824600</id>
+		<text>Watch out for this...Dangerous Food Combination https://t.co/0r1dr6iTEy via @AnneZ1</text>
+		<user_id>21714948</user_id>
+		<user_name>AnnePrepforNewEarth™</user_name>
+		<user_screen_name>AnneZ1</user_screen_name>
+		<user_location>England</user_location>
+		<user_followers_count>368</user_followers_count>
+		<user_friends_count>302</user_friends_count>
+		<user_created_at>Tue Feb 24 01:05:44 +0000 2009</user_created_at>
+		<user_time_zone>Central Time (US & Canada)</user_time_zone>
+		<user_profile_background_color>BADFCD</user_profile_background_color>
+		<user_profile_image_url>http://pbs.twimg.com/profile_images/618227548821045248/ptfdtKG0_normal.jpg</user_profile_image_url>
+		<geo>null</geo>
+		<coordinates>null</coordinates>
+		<place>null</place>
+	</tweet>
+</tweets>

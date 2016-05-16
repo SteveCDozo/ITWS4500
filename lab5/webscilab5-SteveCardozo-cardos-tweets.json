@@ -1,0 +1,191 @@
+[
+    {
+        "created_at": "Sun May 01 19:37:41 +0000 2016",
+        "id": 726858147818774500,
+        "id_str": "726858147818774528",
+        "text": "6 unexpected ways your #dog can help you save #money https://t.co/ezOqjDSghz #AdoptADog #dogcare https://t.co/Dcp8kv0zis",
+        "source": "<a href=\"https://www.socialoomph.com\" rel=\"nofollow\">SocialOomph</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3104566866,
+            "id_str": "3104566866",
+            "name": "John Cosstick",
+            "screen_name": "DogCareArticles",
+            "location": "Melbourne, Australia",
+            "url": "http://www.dogcarearticles.com",
+            "description": "This website is for all dog lovers",
+            "protected": false,
+            "verified": false,
+            "followers_count": 273,
+            "friends_count": 226,
+            "listed_count": 41,
+            "favourites_count": 0,
+            "statuses_count": 16105,
+            "created_at": "Mon Mar 23 09:43:57 +0000 2015",
+            "utc_offset": -25200,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": false,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/579943129572225024/HdOlUARf_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/579943129572225024/HdOlUARf_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3104566866/1440812357",
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "dog",
+                    "indices": [
+                        23,
+                        27
+                    ]
+                },
+                {
+                    "text": "money",
+                    "indices": [
+                        46,
+                        52
+                    ]
+                },
+                {
+                    "text": "AdoptADog",
+                    "indices": [
+                        77,
+                        87
+                    ]
+                },
+                {
+                    "text": "dogcare",
+                    "indices": [
+                        88,
+                        96
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/ezOqjDSghz",
+                    "expanded_url": "http://dld.bz/eh6mP",
+                    "display_url": "dld.bz/eh6mP",
+                    "indices": [
+                        53,
+                        76
+                    ]
+                }
+            ],
+            "user_mentions": [],
+            "symbols": [],
+            "media": [
+                {
+                    "id": 726858147176976400,
+                    "id_str": "726858147176976385",
+                    "indices": [
+                        97,
+                        120
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/ChZRokCVEAE48Fy.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/ChZRokCVEAE48Fy.jpg",
+                    "url": "https://t.co/Dcp8kv0zis",
+                    "display_url": "pic.twitter.com/Dcp8kv0zis",
+                    "expanded_url": "http://twitter.com/DogCareArticles/status/726858147818774528/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 600,
+                            "h": 338,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 340,
+                            "h": 191,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 800,
+                            "h": 450,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 726858147176976400,
+                    "id_str": "726858147176976385",
+                    "indices": [
+                        97,
+                        120
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/ChZRokCVEAE48Fy.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/ChZRokCVEAE48Fy.jpg",
+                    "url": "https://t.co/Dcp8kv0zis",
+                    "display_url": "pic.twitter.com/Dcp8kv0zis",
+                    "expanded_url": "http://twitter.com/DogCareArticles/status/726858147818774528/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 600,
+                            "h": 338,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 340,
+                            "h": 191,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 800,
+                            "h": 450,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "filter_level": "low",
+        "lang": "en",
+        "timestamp_ms": "1462131461468"
+    }
+]
